@@ -42,8 +42,17 @@ class Home extends Component {
           Welcome :- {this.state.name} !!
       <br></br>
           Your Email Id is :- {this.state.email}
-          <div className='Logout'>
-            <a href="/" className='glyphicon glyphicon-log-out' onClick={this.logout} >Logout</a>
+          <div className="omb_login ">
+          <div className="row omb_row-sm-offset-3 omb_socialButtons">
+    	    <div className="col-xs-4 col-sm-2 logout">
+		        <a href="/" className="btn btn-lg btn-block omb_btn-facebook" onClick={this.logout}>
+			        <i className="fa fa-facebook visible-xs"></i>
+              <div className="logout">
+			        <span className="hidden-xs">Logout</span>
+              </div>
+		          </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

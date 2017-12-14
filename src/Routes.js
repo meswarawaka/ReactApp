@@ -11,6 +11,7 @@ import Contactus  from "./components/Contactus";
 import Signup  from "./components/Signup";
 import Login  from "./components/Login";
 import FeedbackComponent from './components/FeedbackComponent';
+import Favourites from './components/Favourites'
 
 const Routes = () => (
     <BrowserRouter>
@@ -23,6 +24,7 @@ const Routes = () => (
             <Route path="/signup" component={Signup} />
             <Route path="/login" component={Login} />
             <Route path="/home" component={Home}/>
+            <Route path="/favourites" component={Favourites}/>
             <Route exact path='/feedback' component={FeedbackComponent} />
           </Switch>
         </div>
