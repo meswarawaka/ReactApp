@@ -11,10 +11,11 @@ export default () => {
                 <Nav>
                     <NavItem eventKey={1} href="/">Home</NavItem>
                     <NavItem eventKey={2} href="/services">Services</NavItem>
-                    <NavItem eventKey={3} href="/contactus">Contact Us</NavItem>
-                    <NavItem eventKey={4} href="/signup">Sign Up</NavItem>
-                    <NavItem eventKey={5} href="/login">Login</NavItem>
-                    <NavItem eventKey={6} href="/feedback">Feedback</NavItem>
+                    <NavItem eventKey={3} href="/favourites">Favourites</NavItem>
+                    <NavItem eventKey={4} href="/contactus">Contact Us</NavItem>
+                    <NavItem eventKey={5} href="/signup">Sign Up</NavItem>
+                    <NavItem eventKey={6} href="/login">Login</NavItem>
+                    <NavItem eventKey={7} href="/feedback">Feedback</NavItem>
                 </Nav>
             </Navbar>
  
