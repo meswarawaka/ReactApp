@@ -62,10 +62,10 @@ input.form-control,select.form-control {
   font-weight: bold;
   font-size: 50px;
 }
-.Logout {
-  font-size: larger;
-  padding-left: 90%;
-  margin-top: -10%;
+.col-xs-4.col-sm-2.logout {
+  float: right;
+  margin-top: -8%;
+  padding-right: 3%;
 }
 .WelcomePage {
   margin-top: 50px;
@@ -173,4 +173,7 @@ textarea {
 }
 .feedback-form-error {
   color: red;
+}
+td.hidden {
+  display: none;
 }
